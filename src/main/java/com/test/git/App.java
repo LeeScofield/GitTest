@@ -19,6 +19,6 @@ public class App
         list.forEach(System.out::println);
 
         Function<String,String> fun = (a) -> "你好:" + a;
-        System.out.println(fun.apply("张三"));
+        System.out.println(fun.apply("张三666"));
     }
 }
